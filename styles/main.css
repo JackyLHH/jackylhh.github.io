@@ -1921,3 +1921,44 @@ mark {
       }
       
     
+      /*这是 JackyLHH 为自己的个人微信公众号定制的 CSS 样式，样式更新日期：2019-11-16。*/
+P{
+  font-size: 15px;
+  padding: 0.75em 1em;
+  color: #595959;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 2em;
+}
+strong{
+  color: #0070c0;
+  font-weight: bold;
+  font-size: 15px;
+}
+h1{
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  color: #000000;
+}
+h2{
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  font-weight: bolder;
+}
+h3{
+  font-size: 15px;
+  text-align: justify;
+  font-weight: bold;
+  color: #000000;
+  padding: 0.75em 1em;
+}
+blockquote{
+  margin-left: 1em;
+  padding: 0 1em;
+  font-size: 14px;
+  border-left: 3px solid #888888;
+  color: #888888;
+}
+    
