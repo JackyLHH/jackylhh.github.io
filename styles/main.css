@@ -1930,7 +1930,7 @@ mark {
   line-height: 2em;
 }
 strong{
-  color: #0070c0;
+  color: #2b73af;
   font-weight: bold;
   font-size: 15px;
 }
@@ -1938,12 +1938,12 @@ h1{
   font-size: 35px;
   font-weight: bolder;
   text-align: center;
-  color: #000000;
+  color: #2b73af;
 }
 h2{
   font-size: 18px;
   text-align: center;
-  color: #000000;
+  color: #2b73af;
   font-weight: bolder;
 }
 h3{
