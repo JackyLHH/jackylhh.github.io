@@ -1,159 +1,184 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>火华说</title>
-<meta name="description" content="“To do something or build something that is bigger than a nine-to-five.”" />
-<link rel="shortcut icon" href="https://jackylhh.github.io/favicon.ico?v=1576231799200">
-<link href="https://cdn.remixicon.com/releases/v1.3.1/remixicon.css" rel="stylesheet">
+    <meta charset="utf-8" >
+
+<title>文章归档 | 火华说</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://jackylhh.github.io/favicon.ico?v=1576511920716">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
 <link rel="stylesheet" href="https://jackylhh.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="火华说 - Atom Feed" href="https://jackylhh.github.io/atom.xml">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 
   </head>
   <body>
-    <div class="head">
-  <div class="inner">
-    <a class="site-name" href="https://jackylhh.github.io">
-        <span>火华说</span>
-    </a>
-    <label class="burger" for="burger"></label>
-    <input id="burger" type="checkbox">
-    <button class="burger">
-      <div>
-        <span></span>
-        <span></span>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://jackylhh.github.io">
+        <img src="https://jackylhh.github.io/images/avatar.png?v=1576511920716" class="site-logo">
+        <h1 class="site-title">火华说</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
-    </button>
-    <nav class="info_nav">
+    </div>
+    <div>
       
         
-          <a href="/">首页</a>
-        
-      
-        
-          <a href="/archives">归档</a>
-        
-      
-        
-          <a href="/tags">标签</a>
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
       
         
-          <a href="/post/about">关于我</a>
+          <a href="/archives" class="site-nav">
+            所有文章
+          </a>
         
       
-    </nav>
+        
+          <a href="/tags" class="site-nav">
+            标签分类
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于我
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/JackyLHH" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://twitter.com/JackyLHH_real" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://weibo.com/lihuohua" target="_blank">
+            <i class="fab fa-weibo"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://www.zhihu.com/people/JackyLHH/activities" target="_blank">
+            <i class="fab fa-zhihu"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://www.facebook.com/JackyLHH1993" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      联系我 | <a class="rss" href="https://jackylhh.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
-    <div class="info _site">
-      <div class="inner">
-        <div class="info_main">
-          <h1 class="info_title"><i class="remixicon-archive-line"></i> 目前共计 3 篇创作</h1>
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <div class="inner">
-        <div class="items">
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+
+          <h2 class="archives-title">文章归档</h2>
+          <div class="archives-container">
+            
+              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
+              
+                
+                  <article class="post">
+                    <a href="https://jackylhh.github.io/post/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin">
+                      <h2 class="post-title">
+                        区块链小科普：什么是 IPFS、 Filecoin？
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://jackylhh.github.io/post/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang">
+                      <h2 class="post-title">
+                        加密货币“跌跌不休”，接受比特币支付的商家数量却持续增长
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://jackylhh.github.io/post/mai-bao-xian-pa-bei-keng-mai-bao-xian-shi-ni-xu-yao-zhi-dao-zhe-xie">
+                      <h2 class="post-title">
+                        买保险怕被坑？买保险时，你需要知道这些…...
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+            
+          </div>
+
+          <div class="pagination-container">
   
-    <div class="item Article">
-      
-        <a class="item-image js-cover" data-src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9uyc81e01j31hc0u0gqo.jpg" href="https://jackylhh.github.io/post/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin" style="background-image:url('https://tva1.sinaimg.cn/large/006tNbRwgy1g9uyc81e01j31hc0u0gqo.jpg');"></a>
-      
-      <a class="item-main" href="https://jackylhh.github.io/post/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin">
-        <div class="item-meta">
-          <time datetime="2019-12-13 20:30:36">2019-12-13</time>
-        </div>
-        <h2>区块链小科普：什么是 IPFS、 Filecoin？</h2>
-      </a>
-    </div>
-  
-    <div class="item Article">
-      
-        <a class="item-image js-cover" data-src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9u23si21sj31hc0tzjvc.jpg" href="https://jackylhh.github.io/post/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang" style="background-image:url('https://tva1.sinaimg.cn/large/006tNbRwgy1g9u23si21sj31hc0tzjvc.jpg');"></a>
-      
-      <a class="item-main" href="https://jackylhh.github.io/post/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang">
-        <div class="item-meta">
-          <time datetime="2019-12-12 18:16:22">2019-12-12</time>
-        </div>
-        <h2>加密货币“跌跌不休”，接受比特币支付的商家数量却持续增长</h2>
-      </a>
-    </div>
-  
-    <div class="item Article">
-      
-        <a class="item-image js-cover" data-src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9rqzbewdmj31e60u0419.jpg" href="https://jackylhh.github.io/post/mai-bao-xian-pa-bei-keng-mai-bao-xian-shi-ni-xu-yao-zhi-dao-zhe-xie" style="background-image:url('https://tva1.sinaimg.cn/large/006tNbRwgy1g9rqzbewdmj31e60u0419.jpg');"></a>
-      
-      <a class="item-main" href="https://jackylhh.github.io/post/mai-bao-xian-pa-bei-keng-mai-bao-xian-shi-ni-xu-yao-zhi-dao-zhe-xie">
-        <div class="item-meta">
-          <time datetime="2019-11-27 20:51:38">2019-11-27</time>
-        </div>
-        <h2>买保险怕被坑？买保险时，你需要知道这些…...</h2>
-      </a>
-    </div>
   
 </div>
 
-        <div class="navigation">
-  
-  
-</div>
+        </div>
       </div>
     </div>
-    <footer class="footer">
-  <div class="main">
-    <a href="https://jackylhh.github.io">
-      <img class="avatar" src="https://jackylhh.github.io/images/avatar.png?v=1576231799200" alt="火华说">
-    </a>
-    <div class="footer__social">
-      
-        
-          <a href="https://github.com/JackyLHH" target="_blank"><i class="remixicon-github-line"></i></a>
-        
-      
-        
-          <a href="https://twitter.com/JackyLHH_real" target="_blank"><i class="remixicon-twitter-line"></i></a>
-        
-      
-        
-          <a href="https://weibo.com/lihuohua?refer_flag=1001030103_" target="_blank"><i class="remixicon-weibo-line"></i></a>
-        
-      
-        
-          <a href="https://www.zhihu.com/people/JackyLHH/activities" target="_blank"><i class="remixicon-zhihu-line"></i></a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <p class="footer__sosumi">
-      
-    </p>
-    <a class="footer-rss" href="https://jackylhh.github.io/atom.xml">RSS</a>
-  </div>
-</footer>
 
-<script src="https://jackylhh.github.io/media/prism.js"></script>
-<script>
-  Prism.highlightAll()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
+
+
+
 
   </body>
 </html>

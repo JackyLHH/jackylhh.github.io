@@ -2,11 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jackylhh.github.io</id>
     <title>火华说</title>
-    <updated>2019-12-13T10:13:07.960Z</updated>
+    <updated>2019-12-16T15:59:19.434Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jackylhh.github.io"/>
     <link rel="self" href="https://jackylhh.github.io/atom.xml"/>
-    <subtitle>“To do something or build something that is bigger than a nine-to-five.”</subtitle>
     <logo>https://jackylhh.github.io/images/avatar.png</logo>
     <icon>https://jackylhh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 火华说</rights>
@@ -16,6 +15,14 @@
         <link href="https://jackylhh.github.io/post/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin">
         </link>
         <updated>2019-12-13T12:30:36.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>本文主要是给零基础的人科普 IPFS 和 Filecoin 项目的区别与联系。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>本文主要是给零基础的人科普 IPFS 和 Filecoin 项目的区别与联系。</p>
+</blockquote>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[加密货币“跌跌不休”，接受比特币支付的商家数量却持续增长]]></title>
@@ -23,6 +30,14 @@
         <link href="https://jackylhh.github.io/post/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang">
         </link>
         <updated>2019-12-12T10:16:22.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>本文主要介绍那些比较有代表性的、接受比特币支付的商家。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>本文主要介绍那些比较有代表性的、接受比特币支付的商家。</p>
+</blockquote>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[买保险怕被坑？买保险时，你需要知道这些…...]]></title>
@@ -30,9 +45,13 @@
         <link href="https://jackylhh.github.io/post/mai-bao-xian-pa-bei-keng-mai-bao-xian-shi-ni-xu-yao-zhi-dao-zhe-xie">
         </link>
         <updated>2019-11-27T12:51:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>这是一篇关于保险的科普文！</p>
+        <summary type="html"><![CDATA[<blockquote>
+<p>这是一篇关于保险的科普文！</p>
+</blockquote>
 ]]></summary>
-        <content type="html"><![CDATA[<p>这是一篇关于保险的科普文！</p>
+        <content type="html"><![CDATA[<blockquote>
+<p>这是一篇关于保险的科普文！</p>
+</blockquote>
 ]]></content>
     </entry>
 </feed>
