@@ -2,13 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jackylhh.github.io</id>
     <title>火华说</title>
-    <updated>2019-12-26T02:04:10.428Z</updated>
+    <updated>2019-12-27T02:05:12.544Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jackylhh.github.io"/>
     <link rel="self" href="https://jackylhh.github.io/atom.xml"/>
     <logo>https://jackylhh.github.io/images/avatar.png</logo>
     <icon>https://jackylhh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 火华说</rights>
+    <entry>
+        <title type="html"><![CDATA[年终总结：我的 2019 年]]></title>
+        <id>https://jackylhh.github.io/post/4DNHaw-rw</id>
+        <link href="https://jackylhh.github.io/post/4DNHaw-rw">
+        </link>
+        <updated>2019-12-27T00:00:37.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>这是我个人的 2019 年年终总结！</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>这是我个人的 2019 年年终总结！</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[区块链小科普：什么是 IPFS、 Filecoin？]]></title>
         <id>https://jackylhh.github.io/post/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin</id>
