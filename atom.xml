@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jackylhh.github.io</id>
-    <title>JackyLHH的笔记</title>
-    <updated>2020-01-01T09:20:42.874Z</updated>
+    <title>JackyLHH</title>
+    <updated>2020-01-01T09:22:37.952Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jackylhh.github.io"/>
     <link rel="self" href="https://jackylhh.github.io/atom.xml"/>
     <logo>https://jackylhh.github.io/images/avatar.png</logo>
     <icon>https://jackylhh.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, JackyLHH的笔记</rights>
+    <rights>All rights reserved 2020, JackyLHH</rights>
     <entry>
         <title type="html"><![CDATA[2020 新年计划：虽然很可能实现不了，但有计划总比没计划好！]]></title>
         <id>https://jackylhh.github.io/post/x22ylTzjM</id>
