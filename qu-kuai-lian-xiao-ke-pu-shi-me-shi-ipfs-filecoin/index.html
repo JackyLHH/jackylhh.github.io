@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>区块链小科普：什么是 IPFS、 Filecoin？ | 奇迹先生李憨憨</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://jackylhh.github.io/favicon.ico?v=1585726315465">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://jackylhh.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://jackylhh.github.io">
+        <img src="https://jackylhh.github.io/images/avatar.png?v=1585726315465" class="site-logo">
+        <h1 class="site-title">奇迹先生李憨憨</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            所有文章
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签分类
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于我
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/JackyLHH" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://twitter.com/JackyLHH_real" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://weibo.com/lihuohua" target="_blank">
+            <i class="fab fa-weibo"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://www.zhihu.com/people/JackyLHH/activities" target="_blank">
+            <i class="fab fa-zhihu"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://www.facebook.com/JackyLHH1993" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      联系我 | <a class="rss" href="https://jackylhh.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">区块链小科普：什么是 IPFS、 Filecoin？</h2>
+            <div class="post-date">2019-12-13</div>
+            
+              <div class="feature-container" style="background-image: url('https://tva1.sinaimg.cn/large/006tNbRwgy1g9uyc81e01j31hc0u0gqo.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <blockquote>
+<p>本文主要是给零基础的人科普 IPFS 和 Filecoin 项目的区别与联系。</p>
+</blockquote>
+<h2 id="-more-"><!-- more --></h2>
+<p>北京时间昨天凌晨 1 点 55 分左右，推迟了一年多时间的 Filecoin 项目终于启动了测试网。对于 Filecoin，很多人可能会感到陌生，但提到 IPFS（星际文件系统），相信不少人都听说过。</p>
+<p>Filecoin 和 IPFS 之间是什么关系呢？IPFS 是区块链项目吗？今天，我们就来一起搞懂这些疑问。</p>
+<h1 id="01">01</h1>
+<h2 id="什么是-ipfs">什么是 IPFS？</h2>
+<p>IPFS 由美国 Protocol Lab 实验室推出，全称是 The InterPlanetary File System，中文翻译成“星际文件系统”。<strong>顾名思义，IPFS 就是用来存储文件、存储数据的。</strong></p>
+<p>我们知道，<strong>区块链本身并不适合存储大量的数据</strong>，比如现在的比特币区块链，运行一个全节点需要 250GB 以上的存储空间，且每年还在以大约  75GB 的速度在增长。这还是在比特币区块链只能记录一些简单的交易数据为前提的。如果要在一条区块链网络上存储其他类型的数据、文件，显然会非常低效，成本也非常高。</p>
+<figure data-type="image" tabindex="1"><img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9tzjdagy8j313u0krq4m.jpg" alt="1" loading="lazy"></figure>
+<p>**IPFS 不是区块链，它是一种分布式的、点对点的新型超媒体传输协议，对标目前的互联网 HTTP 协议，主要作用是提供数据的存储和传输。**所以，IPFS 可以成为区块链的底层基础设施，为区块链提供数据存储服务。</p>
+<p>**IPFS 与 HTTP 协议的最主要区别在于，后者依赖中心化的服务器，而 IPFS 类似于区块链，是分布式存储，但不具备和区块链一样的“不可篡改”特性。**更简单地来说，IPFS 就是利用别人的闲置硬盘，帮你存储文件、数据资料，你对存储的文件、数据资料拥有修改权，可以随时随地做出修改。</p>
+<h1 id="02">02</h1>
+<h2 id="什么是-filecoin">什么是 Filecoin</h2>
+<p><strong>Filecoin 是运行在 IPFS 上的一个激励层，也是一个区块链项目</strong>。Filecoin 和 IPFS 一样，都是 Protocol Lab 实验室推出的。</p>
+<p>Filecoin 主要的作用就是解决“别人为什么要用他的闲置硬盘存储你的文件、数据资料”。<strong>Filecoin 给出的解决方案是，利用区块链中的经济模型进行激励</strong>：文件上传者（用户）需要支付 Token，提供硬盘存储服务的人（矿工）可以得到 Token 奖励。</p>
+<p>在 Filecoin 项目中，有两类矿工：一类是提供硬盘存储服务的矿工，称为存储矿工，设备门槛相对较低；另一类是提供搜索功能的矿工，即用户输入哈希地址，就能查找到文件，这类矿工称为检索矿工，对设备的性能要求较高。</p>
+<p>需要特别指出的是，<strong>Filecoin 只是如何利用经济模型让大众参与 IPFS 的一个解决方案，还可以有其他区块链、非区块链解决方案。</strong></p>
+<h1 id="03">03</h1>
+<h2 id="结语">结语</h2>
+<p>Filecoin 的测试网已于昨天凌晨上线，截止今天上午 10:45，一共出块 2660 块，平均出块时间 45 秒。</p>
+<figure data-type="image" tabindex="2"><img src="https://tva1.sinaimg.cn/large/006tNbRwgy1g9uxoy57ryj313u0mcjug.jpg" alt="WX20191213-104545" loading="lazy"></figure>
+<p>根据官方更新的路线图，Filecoin 整个测试分为两个阶段，于明年 3 月 20 日结束，主网将在明年 3 月 23 日至 4 月 24 日期间启动。Filecoin 项目能否推动 IPFS 的发展，从现有的互联网中心化存储中分食一块蛋糕，还有待主网上线后的持续观察。</p>
+<hr>
+<p>如果你想深入了解，欢迎阅读我之前的文章《迟迟不来的Filecoin凭什么令人充满期待？一文说透IPFS》，文章链接：https://mp.weixin.qq.com/s/XRWMrYx7Htb0hxMh7EH9OA</p>
+<hr>
+<p>【声明】本文首发「白话区块链（ID：hellobtc）」微信公众号，原文链接：https://mp.weixin.qq.com/s/nxPZhk-cJ4sF9p6fZUxYqw*</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://jackylhh.github.io/60dOPY10W/" class="tag">
+                    区块链
+                  </a>
+                
+                  <a href="https://jackylhh.github.io/tnhvg_Aqn/" class="tag">
+                    科普
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://jackylhh.github.io/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang/">
+                  <h3 class="post-title">
+                    加密货币“跌跌不休”，接受比特币支付的商家数量却持续增长
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '18de189eea5951bfb533',
+        clientSecret: '30b300991f5c9d8d02b656a1b94fb4bd79ca1dac',
+        repo: 'jackylhh.github.io',
+        owner: 'jackylhh',
+        admin: ['jackylhh'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>

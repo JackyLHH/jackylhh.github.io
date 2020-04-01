@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jackylhh.github.io</id>
-    <title>JackyLHH</title>
-    <updated>2020-03-29T03:16:23.271Z</updated>
+    <title>奇迹先生李憨憨</title>
+    <updated>2020-04-01T07:32:01.459Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jackylhh.github.io"/>
     <link rel="self" href="https://jackylhh.github.io/atom.xml"/>
     <logo>https://jackylhh.github.io/images/avatar.png</logo>
     <icon>https://jackylhh.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, JackyLHH</rights>
+    <rights>All rights reserved 2020, 奇迹先生李憨憨</rights>
+    <entry>
+        <title type="html"><![CDATA[微博总是自动关注、点赞广告营销号？一招帮你解决这些烦恼]]></title>
+        <id>https://jackylhh.github.io/hTOMrmP9v/</id>
+        <link href="https://jackylhh.github.io/hTOMrmP9v/">
+        </link>
+        <updated>2020-04-01T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>让你的微博更清爽！</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>让你的微博更清爽！</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如果你想了解义乌，就去看看这部剧吧]]></title>
-        <id>https://jackylhh.github.io/post/4DEqrpt0M</id>
-        <link href="https://jackylhh.github.io/post/4DEqrpt0M">
+        <id>https://jackylhh.github.io/4DEqrpt0M/</id>
+        <link href="https://jackylhh.github.io/4DEqrpt0M/">
         </link>
         <updated>2020-02-20T02:00:26.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[安利一部日本医学悬疑剧：非自然死亡（Unnatural）]]></title>
-        <id>https://jackylhh.github.io/post/ekTKej9Qu</id>
-        <link href="https://jackylhh.github.io/post/ekTKej9Qu">
+        <id>https://jackylhh.github.io/ekTKej9Qu/</id>
+        <link href="https://jackylhh.github.io/ekTKej9Qu/">
         </link>
         <updated>2020-02-06T11:04:32.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -33,8 +48,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[悲惨世界，美丽人生]]></title>
-        <id>https://jackylhh.github.io/post/4VYxTvoci</id>
-        <link href="https://jackylhh.github.io/post/4VYxTvoci">
+        <id>https://jackylhh.github.io/4VYxTvoci/</id>
+        <link href="https://jackylhh.github.io/4VYxTvoci/">
         </link>
         <updated>2020-01-26T15:18:38.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -48,8 +63,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[安利一部美剧：切尔诺贝利（Chernobyl）]]></title>
-        <id>https://jackylhh.github.io/post/g7As3D_G0</id>
-        <link href="https://jackylhh.github.io/post/g7As3D_G0">
+        <id>https://jackylhh.github.io/g7As3D_G0/</id>
+        <link href="https://jackylhh.github.io/g7As3D_G0/">
         </link>
         <updated>2020-01-25T11:34:34.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -63,8 +78,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[2020 新年计划：虽然很可能实现不了，但有计划总比没计划好！]]></title>
-        <id>https://jackylhh.github.io/post/x22ylTzjM</id>
-        <link href="https://jackylhh.github.io/post/x22ylTzjM">
+        <id>https://jackylhh.github.io/x22ylTzjM/</id>
+        <link href="https://jackylhh.github.io/x22ylTzjM/">
         </link>
         <updated>2020-01-01T09:15:07.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -78,8 +93,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[年终总结：我的 2019 年]]></title>
-        <id>https://jackylhh.github.io/post/4DNHaw-rw</id>
-        <link href="https://jackylhh.github.io/post/4DNHaw-rw">
+        <id>https://jackylhh.github.io/4DNHaw-rw/</id>
+        <link href="https://jackylhh.github.io/4DNHaw-rw/">
         </link>
         <updated>2019-12-27T00:00:37.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -93,8 +108,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[区块链小科普：什么是 IPFS、 Filecoin？]]></title>
-        <id>https://jackylhh.github.io/post/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin</id>
-        <link href="https://jackylhh.github.io/post/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin">
+        <id>https://jackylhh.github.io/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin/</id>
+        <link href="https://jackylhh.github.io/qu-kuai-lian-xiao-ke-pu-shi-me-shi-ipfs-filecoin/">
         </link>
         <updated>2019-12-13T12:30:36.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -108,8 +123,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[加密货币“跌跌不休”，接受比特币支付的商家数量却持续增长]]></title>
-        <id>https://jackylhh.github.io/post/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang</id>
-        <link href="https://jackylhh.github.io/post/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang">
+        <id>https://jackylhh.github.io/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang/</id>
+        <link href="https://jackylhh.github.io/jia-mi-huo-bi-die-die-bu-xiu-jie-shou-bi-te-bi-zhi-fu-de-shang-jia-shu-liang-que-chi-xu-zeng-chang/">
         </link>
         <updated>2019-12-12T10:16:22.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -123,8 +138,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[买保险怕被坑？买保险时，你需要知道这些…...]]></title>
-        <id>https://jackylhh.github.io/post/mai-bao-xian-pa-bei-keng-mai-bao-xian-shi-ni-xu-yao-zhi-dao-zhe-xie</id>
-        <link href="https://jackylhh.github.io/post/mai-bao-xian-pa-bei-keng-mai-bao-xian-shi-ni-xu-yao-zhi-dao-zhe-xie">
+        <id>https://jackylhh.github.io/mai-bao-xian-pa-bei-keng-mai-bao-xian-shi-ni-xu-yao-zhi-dao-zhe-xie/</id>
+        <link href="https://jackylhh.github.io/mai-bao-xian-pa-bei-keng-mai-bao-xian-shi-ni-xu-yao-zhi-dao-zhe-xie/">
         </link>
         <updated>2019-11-27T12:51:38.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -133,21 +148,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>这是一篇关于保险的科普文！</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何轻轻松松地科学上网？]]></title>
-        <id>https://jackylhh.github.io/post/AyToPBVCE</id>
-        <link href="https://jackylhh.github.io/post/AyToPBVCE">
-        </link>
-        <updated>2018-05-20T01:50:21.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>这是一篇 V-P-N 的科学上网教程。</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>这是一篇 V-P-N 的科学上网教程。</p>
 </blockquote>
 ]]></content>
     </entry>
